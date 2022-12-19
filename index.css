@@ -1,0 +1,214 @@
+@media screen and (max-width: 1200px){
+
+}
+@media screen and (max-width: 998px) {
+    
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 576px) {
+
+}
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+}   
+.menu{
+    display: flex;
+    position:absolute;
+    display: flex;
+    left: 24%;
+    top: 10.5%;
+}
+.menu li{
+    
+    width: 200px;
+    list-style: none;
+    background: #383c54;
+    position: relative;
+}
+.menu a{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 0 10px;
+    height: 40px;
+    line-height: 40px;
+    transition: all .5s;
+}
+.menu a:hover{
+    background: #808291;
+    
+}
+.menu ul{
+    position: absolute;
+    left: 0%;
+    top: 100%; 
+    display: none;
+    padding: 0;
+}
+.menu li:hover ul{
+    display: block;
+}
+
+.boxxx{
+    position: fixed;
+    top: 0; left: 0;
+    z-index: 0;
+    font-size: 23px;
+    color:rgb(61, 56, 50);
+
+}
+.bob{
+    display: flex;
+    align-self: flex-end;
+    position: fixed;
+    top: 0;right: 0;
+    z-index: 0;
+    font-size: 23px;
+}
+.boxx{
+    background-color: rgb(29, 31, 32);
+    position: absolute;
+    width: 1920px;
+    height: 100px;
+    top: 0;left: 0;
+    z-index: 0;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 35px;
+    color: cornsilk;
+}
+.box{
+    background:url(../fronted/index.img.jpg);
+    width: 1920px;
+    height: 1080px;
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+    color: rgb(236, 236, 150);
+}
+.search-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    background: #2f3640;
+    height: 60px;
+    border-radius: 60px;
+    padding: 10px;
+
+}
+.search-btn{
+    color: #1da1f3;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    line-height: 20px;
+    font-size: 20px;
+}
+.search-box:hover > .search-txt{
+    width: 240px;
+    padding: 0 6px;
+}
+.search-box:hover > .search-btn{
+    background: white;
+
+}
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: 0;
+    color:white;
+    font-size: 20px;
+    transition: 0.4s;
+    line-height: 0;
+    width:0;
+    transition: 0.4s;
+}
+.pon{
+    background-color: #2f3640;
+    border-radius: 3%;
+    width: 1080px;
+    height:200px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    border-radius: 30px;
+    padding: 50px;
+    color: rgb(243, 227, 227);
+    text-decoration: none;
+    text-align:center;
+
+}
+.net{
+    background-color: rgb(69, 73, 76);
+    width: 1920px;
+    height: 50px;
+    position: absolute;
+}
+
+.hot{
+    background-color:#1f2329 ;
+    width: 1920px;
+    height: 200px;
+    position: absolute;
+    top: 118.7%;
+    right: 0%;
+    
+
+}
+.ten{
+    background: url(../fronted/index2.img.png);
+    width: 800px;
+    height: 400px;
+    top: 5%;
+    position:absolute;
+    right:25.7% ;
+    
+    
+}
+.horosho{
+    color: rgb(222, 223, 209);
+    text-decoration: none;
+    position: absolute;
+    top: 123%;
+    right: 80.9%;
+
+}
+.gay{
+    color: rgb(222, 223, 209);
+    text-decoration: none;
+    position: absolute;
+    top: 127%;
+    right: 80%;
+}
+.goy{
+    color: rgb(222, 223, 209);
+    text-decoration: none;
+    position: absolute;
+    top: 131.5%;
+    right: 79.8%;
+}
+.russia{
+  
+    text-decoration: none;
+    position: absolute;
+    top: 131.5%;
+    right: 50.8%;
+    
+}
