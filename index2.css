@@ -1,0 +1,11 @@
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    background:url(../ggggg/1625504703_27-kartinkin-com-p-tvoe-imya-fon-krasivie-foni-30.jpg);
+    width: 2000px;
+    height: 1300px;
+    background-size: cover;
+}
